@@ -1,2 +1,2 @@
-# miniapp-healthy-mudra
-a miniapp that shows basic yoga mudra helping you approve health status
+# mini-app-helthy-mudra
+a mini-app that can show you the basic yoga mudra helping you approve health condition

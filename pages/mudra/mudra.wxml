@@ -1,0 +1,13 @@
+<!--pages/mudra/mudra.wxml-->
+<view class="body">
+    <view class="flex-row">
+        <view bindtap='overview' class="{{overview}}">概述</view>
+        <view bindtap='wisdom' class="{{wisdom}}">智慧手印</view>
+        <view bindtap='energy' class="{{energy}}">能量手印</view>
+        <view bindtap='vigor' class="{{vigor}}">生命手印</view>
+        <view bindtap='fluid' class="{{fluid}}">流体手印</view>
+        <view bindtap='stable' class="{{stable}}">地手印</view>
+        <view bindtap='chan' class="{{chan}}">禅手印</view>
+        <view bindtap='love' class="{{lovegrateful}}">合十手印</view>
+    </view>
+</view>

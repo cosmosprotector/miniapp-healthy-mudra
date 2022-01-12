@@ -1,0 +1,43 @@
+/* pages/mudra/mudra.wxss */
+/* 主体页面布局，两边留白 */
+.body{
+    margin: 10px 10px 25px 25px;
+}
+/* flex水平布局 */
+.flex-row{
+    display:flex;
+    flex-direction: row;
+}
+
+/* 未激活按钮 */
+.inactive{
+    display: inline-block;
+    padding:9.6px 16px;
+    background-image: linear-gradient(#ddd,#bbb);
+    border:2px solid rgba(0,0,0,.2);
+    border-radius: 9.6px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+/* 激活按钮，通过增加background实现 */
+.active{
+    display: inline-block;
+    padding:9.6px 16px;
+    background-image: linear-gradient(#ddd,#bbb);
+    border:2px solid rgba(0,0,0,.2);
+    background: #bbb;
+    border-radius: 9.6px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+}
+/* 尾部样式 */
+.foot{
+    text-align: center;
+    font-family: SimSun;
+    font-size: 40px;
+    background-color: lightgray;
+}
