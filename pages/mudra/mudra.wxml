@@ -1,5 +1,5 @@
 <!--pages/mudra/mudra.wxml-->
-<view class="body">
+<view class="body" >
     <view class="flex-row">
         <view bindtap='overview' class="{{overview}}">概述</view>
         <view bindtap='wisdom' class="{{wisdom}}">智慧手印</view>
@@ -10,4 +10,8 @@
         <view bindtap='chan' class="{{chan}}">禅手印</view>
         <view bindtap='love' class="{{lovegrateful}}">合十手印</view>
     </view>
+    <view class="imagesize" >
+    <image mode="aspectFit" src="{{src}}"></image>
+    </view>
+    <view style=" white-space: pre-line;" id="p1">{{text}}</view>
 </view>

@@ -1,38 +1,41 @@
 /* pages/mudra/mudra.wxss */
 /* 主体页面布局，两边留白 */
 .body{
-    margin: 10px 10px 25px 25px;
+    margin: 0px 20px 50px 20px;
 }
 /* flex水平布局 */
 .flex-row{
     display:flex;
     flex-direction: row;
 }
-
+.imagesize{
+    display:flex;                    /*flex布局*/
+    justify-content: center;         /*水平轴线居中*/
+}   
 /* 未激活按钮 */
 .inactive{
     display: inline-block;
-    padding:9.6px 16px;
-    background-image: linear-gradient(#ddd,#bbb);
+    padding:10px 10px 10px 10px;
+    background-image: linear-gradient(#aff,#aaf);
     border:2px solid rgba(0,0,0,.2);
     border-radius: 9.6px;
     text-align: center;
     color: white;
     font-weight: bold;
-    width: 100px;
+    width: 90px;
 }
 /* 激活按钮，通过增加background实现 */
 .active{
     display: inline-block;
-    padding:9.6px 16px;
-    background-image: linear-gradient(#ddd,#bbb);
+    padding:10px 10px 10px 10px;
+    background-image: linear-gradient(#cfa,#afc);
     border:2px solid rgba(0,0,0,.2);
-    background: #bbb;
+    background: #caf;
     border-radius: 9.6px;
     text-align: center;
     color: white;
     font-weight: bold;
-    width: 100px;
+    width: 90px;
 }
 /* 尾部样式 */
 .foot{
